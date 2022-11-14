@@ -1,6 +1,5 @@
 import './css/styles.css';
 import api from './api-pixabay';
-import axios from 'axios';
 import Notiflix from 'notiflix';
 import { createImgMarkup } from './img-markup';
 
