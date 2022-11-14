@@ -7,7 +7,7 @@ import { createImgMarkup } from './img-markup';
 import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
-const lightbox = new SimpleLightbox('.gallery a', {captionDelay:250});
+const lightbox = new SimpleLightbox('.gallery a', { captionsData:"alt", captionDelay:250});
 
 const getEl = selector => document.querySelector(selector);
 
